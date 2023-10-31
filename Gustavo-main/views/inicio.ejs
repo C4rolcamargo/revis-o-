@@ -1,15 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-
+<body class="corpo">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tela de Inicio</title>
 </head>
-
-<body class="corpo">
     <h1 class="titulo">
-        <img class="img1" src="https://github.com/TheVitin/imagens-telainicio-ubuntu/blob/main/imagemfundo.png?raw=true"
+        <img class="img1" src="https://github.com/GabrielBarbxsaaZx999/testee.github.io/blob/main/Logo.png?raw=true"
             alt="Logo">
     </h1>
     <br>
@@ -50,14 +48,28 @@
     <style>
      *{
    margin: 0px;
-   padding: 0%;
+   padding: 0px;
    font-family: Helvetica;
    
 }
+
+body {
+    
+    height: 100vh; /* Define a altura do corpo para ocupar 100% da altura da viewport */
+    background: url('https://github.com/TheVitin/imagens-telainicio-ubuntu/blob/main/imagemfundo.png?raw=true');
+    background-size: cover;
+    overflow-y: hidden; /* Remove a barra de rolagem vertical */
+
+}
+
+/* ... (código CSS existente) ... */
+
+
 .titulo{
 background-color: #00A6FB;
 height: 55px;
 }
+
 .corpo{
 background-color: #eee;
 border-top: 8px solid #00A6FB;
@@ -66,36 +78,45 @@ border-top: 8px solid #00A6FB;
 .pesquisar{
 background-color: #fff;
 width: 750px;
-height: 28px;
-margin-left: 50px;
+height: 39px;
+margin-left: 85px;
 margin-right: 150px;
 font-size: 20px;
 text-align: left;
 border-radius: 10px;
 border-color:#000000;
 }
-.cadastro{
-background-color: #116D9C;
-margin-right: 30px;
-height: 30px;
-width: 100px;
-font-size: 15px;
-border-color: #116D9C;
-color: #fff;
+/* ... (código CSS existente) ... */
+
+.cadastro {
+    background-color: #116D9C;
+    float: right; /* Adiciona o alinhamento à direita */
+    margin-right: 50px; /* Ajusta a margem para espaçamento */
+    height: 39px;
+    width: 130px;
+    font-size: 15px;
+    border-color: #116D9C;
+    color: #fff;
 }
+
+.login {
+    background-color: #00A6FB;
+    float: right; /* Adiciona o alinhamento à direita */
+    margin-right: 20px; /* Ajusta a margem para espaçamento */
+    height: 39px;
+    width: 120px;
+    font-size: 15px;
+    border-color: #00A6FB;
+    color: #fff;
+}
+
+/* ... (código CSS existente) ... */
+
 .cadastro:hover{
 transform: scale(1.1);
 transition: all 0.5s;
 background-color: #00A6FB;
 border-color: #00A6FB;
-}
-.login{
-background-color: #00A6FB; 
-height: 30px;
-width: 100px;
-font-size: 15px;
-border-color: #00A6FB;
-color: #fff;
 }
 .login:hover{
 transform: scale(1.1);
