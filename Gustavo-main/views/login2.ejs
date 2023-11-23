@@ -130,7 +130,7 @@
 <body>
     <div class="top-bar">
         <div class="left-buttons">
-            <button class="seta">Voltar</button>
+            <button onclick="voltar()" class="seta">Voltar </button>
             <a href="/cadastro"></a>
         </div>
     </div>
@@ -164,5 +164,11 @@
         Todos os direitos reservados © 2023
     </footer>
 </body>
+<script>
+    function voltar() {
+            // Altera a localização (URL) para a nova página
+            window.location.href = "login1";
+        }
 
+</script>
 </html>
